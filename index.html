@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CyQuest</title>
+    <link rel="shortcut icon" type="image/png" href="images/cqlogo.png">
+    <!--Ion Icons-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <!--Our own stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+    
+
+    <!--Font Awesome-->
+    
+    <script src="https://use.fontawesome.com/1ff3e24194.js"></script>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="scripts.js"></script>
+
+    <script type="text/javascript" src="countdown.js">
+      
+    </script>
+</head>
+<body onload="preLoader()">
+    <header>
+        <div id="loading"></div>
+
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-lg  ">
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <img src="images/logo4.png" alt="">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler mx-auto" data-toggle="collapse" data-target="#collapse_target">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa fa-bars" id="hamb" aria-hidden="true"></i>
+
+                </button>
+                
+    <div class="collapse navbar-collapse navbar-right" id="collapse_target">      
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="" class="nav-link current"><i class="fa fa-home"></i>&nbsp;&nbsp;Home </a></li>
+            <li class="nav-item"><a href="team.html" class="nav-link"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;Team </a></li>
+            <li class="nav-item"><a href="rule.html" class="nav-link"><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp;&nbsp;Rules </a> </li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;&nbsp;Partners</a> </li>
+            <li class="nav-item"><a href="about.html" class="nav-link"><i class="fa fa-info" aria-hidden="true"></i>&nbsp;&nbsp;About Us </a></li>
+
+            <li class="nav-item reg-now"><a href="https://featherctf.github.io" class="nav-link"><img id="img3" src="./images/feather1.png" title="Notify Me.">&nbsp;&nbsp;Feather CTF </a></li>
+
+        </ul>
+            </nav>
+        </div>
+    </div> 
+    </header>
+    <main>
+        <section class="hero " >
+        <div class="container">
+            <div class="main-message"><br>
+        <h1><img src="./images/logo3.gif" class="fluid" id="logo" alt="">v2.0<br><p id="countdown"></p></h1>
+            </div>
+        </div>
+
+          <div class="btn btn-success fixed-bottom" id="register"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAClbh8dUMERXMUJKQjUxR0hEU1pJRkhESjJEMjM5MC4u"><b>Register Now!!</b></a></div>
+        
+        
+    </section>
+
+  
+    <div class="soc-icons fixed-top">
+            <a href="https://www.instagram.com/cyquest_vitbhopal?r=nametag">
+                <i class="fa fa-instagram side-soc" aria-hidden="true"></i>
+            </a>
+            
+            <a href="https://www.facebook.com/cyquest.in">
+                <i class="fa fa-facebook side-soc" aria-hidden="true"></i>
+            </a>
+            
+            <a href="https://github.com/FeatherCTF">
+                <i class="fa fa-github side-soc" aria-hidden="true"></i>
+            </a>
+        
+
+    </div>
+  
+
+
+    <section class="experience-outdoors">
+        <div id="About"></div>
+        <div class="container">
+            <div id=""  class="title-heading"><br><br>
+                <h1>About the event</h1>
+            </div>
+            <div class="activites-grid">
+         
+
+                <!-- <div class=" star-gazing ">
+                  <div class="activites-grid-item">
+                  <i class="icon ion-md-flag"></i>
+                  <h1>Capture The Flag</h1>
+                  <p>A jeopardy style virtual treasure hunt where you take a dive into the world of vulnerabilities, exploitation and privilege escalation. Take on the challenge and break it... </p>
+                </div>
+              </div>
+         
+          <div class="activites-grid-item hiking">
+              <i class="icon ion-md-code"></i>
+              <h1>Hackathon</h1>
+              <p>A two day split event where you innovate to elevate. Apply your creativity to bend the rules and hack things to make them work in a way they aren't supposed to. You wouldn't wanna miss it for the world... </p>
+          </div>
+          
+          <div class="activites-grid-item camping">
+              <i class="icon ion-md-help"></i>
+              <h1>Quiz</h1>
+              <p>Can you survive this hard-hitting quiz where you have to ponder to conquer? It's going to be all about General Security, Secure-Coding, Software Development, and basic Cyber Security. Can you do it?</p>
+          </div>
+            </div> -->
+
+
+
+            <!-- Flipping Cards -->
+
+            <div class="row">
+
+              <div class="col-lg-4">
+
+
+                <div class="flip-card" >
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="flip-card-3">
+                      <h1><i class="icon ion-md-help"></i></h1>
+                    </div>
+                    <div class="flip-card-back">
+                      <h1><small>Quiz</small></h1>
+                      <p>Can you survive this hard-hitting quiz where you have to ponder to conquer? It's going to be all about General Security, Secure-Coding, Software Development, and basic Cyber Security. Can you do it?</p>
+                    </div>
+                  </div>
+                </div>
+
+                
+
+              </div>
+
+              <div class="col-lg-4">
+
+                <div class="flip-card" >
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="flip-card-2">
+                      <h1><i class="icon ion-md-code"></i></h1>
+                    </div>
+                    <div class="flip-card-back">
+                      <h1><small>Hackathon</small></h1>
+                      <p>A two day split event where you innovate to elevate. Apply your creativity to bend the rules and hack things to make them work in a way they aren't supposed to. You wouldn't wanna miss it for the world... </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-4">
+
+                <div class="flip-card" >
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="flip-card-1">
+                      <h1><i class="icon ion-md-flag" aria-hidden="true"></i>
+                      </h1>
+                    </div>
+                    <div class="flip-card-back">
+                      <h1><small>Capture The Flag</small></h1>
+                      <p>A jeopardy style virtual treasure hunt where you take a dive into the world of vulnerabilities, exploitation and privilege escalation. Take on the challenge and break it... </p>
+                
+                    </div>
+                  </div>
+                </div>
+
+                
+
+              </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div id="Rules"></div>
+        <div class="container">
+
+          <div class="testimonial">
+            <div id="" class="testimonial-text-box">
+            <!-- <h3>Rules and Regulations</h3>
+            <br>
+
+            <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Each team will receive a three-part problem statement.</p>
+            <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Mentors from GDG and FDC will grade the participants based on their progress.</p>
+            <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Participants have to create up to half of their implementation before the competition. </p>
+            <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> A pop-up quiz via google forms will be held during the hackathon and the winning teams will be provided with goodies.</p>
+             -->
+             <div class="row" id="spon-yt">
+
+              <div class="col-sm-12 text-center" >
+                <iframe width="960" height="515" src="https://www.youtube.com/embed/3Cyy-f5vmX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="yt-vid"></iframe>
+              </div>
+          
+             </div>
+             
+          </div>
+
+          <!-- <a href="rule.html">
+          <button class="btn btn-primary rounded" id="Ruleread">Read More</button>
+        </a> -->
+
+        </div>
+        
+            </section>
+
+           
+          <!-- <div class="row" id="spon-yt">
+
+            <div class="col-sm-12 text-center" >
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/3Cyy-f5vmX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="yt-vid"></iframe>
+            </div>
+
+            
+            
+          </div> -->
+
+              
+            
+            
+
+
+    <section class="begin-adventure">
+        
+        <div class="container">
+            <div class="title-heading">
+              <h3></h3>
+                <h1></h1>
+                <div class="advanture-grid">
+                  <!---advanture grid item #1-->
+                  <div class="advanture-grid-item">
+                     
+                  </div>
+                  <!---advanture grid item #2-->
+                  <div class="advanture-grid-item">
+                     
+              </div>
+            </div>
+             <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zpWkde0RHCx9WnsAcnfAQuA539PD8DBn" class="map"></iframe> -->
+             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zpWkde0RHCx9WnsAcnfAQuA539PD8DBn" class="map"></iframe>
+        </div>
+    </section>
+    </main>
+
+
+
+
+    <section class="webquanta">
+        
+        <!-- <svg class="top-img"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 24 150 28 "
+   preserveAspectRatio="none">
+<defs>
+<path id="gentle-wave"
+d="M-160 44c30 0 
+  58-18 88-18s
+  58 18 88 18 
+  58-18 88-18 
+  58 18 88 18
+  v44h-352z" />
+</defs>
+<g class="parallax1">
+ <use xlink:href="#gentle-wave" x="50" y="3" fill="#f461c1"/>
+</g>
+  <g class="parallax2">
+ <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
+  </g>
+    <g class="parallax3">
+ <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/>
+ </g>
+  <g class="parallax4">
+ <use xlink:href="#gentle-wave" x="50" y="6" fill="#eb648c"/>  
+</g>
+</svg>   -->
+        <div class="footer-wrapper">
+            <div class="top-img"></div>
+            <div class="container-fluid">
+              <div class="footer-social-icons">
+                <ul>
+                <a href="#">
+                <i class="fa fa-twitter soc-icon" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-facebook soc-icon" aria-hidden="true"></i>
+        
+            </a>
+            <a href="#">
+                <i class="fa fa-instagram soc-icon"  aria-hidden="true"></i>
+        
+            </a>
+            <a href="https://github.com/FeatherCTF" target="_blank">
+                <i class="fa fa-github soc-icon" aria-hidden="true"></i>
+            </a>
+            <!-- <a href="#">
+              <i class="fa fa-reddit-alien soc-icon" aria-hidden="true"></i>
+            </a> -->
+          </ul>
+              </div>
+          
+              <div class="footer-mid-part container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-section-one">
+                      <div class="footer-heading"><h2>Contact Us</h2></div>
+                        <div class="footer-contact-box">
+                      <div class="footer-contact-icon"><i class="fa fa-map-marker"></i></div>
+                      <div class="footer-contact-text">
+                        <p>Address: VIT Bhopal University, Kotri Kalan (M.P.), IN 466114</p>
+                      </div>
+                      <div class="clr"></div>
+                    </div>
+          
+                     <div class="footer-contact-box">
+                      <div class="footer-contact-icon"><i class="fa fa-phone"></i></div>
+                      <div class="footer-contact-text">
+                        <p>Tarang : <a href="tel:+91 74900 19960">+91 74900 19960</a></p>
+                        <p>Vaibhav : <a href="tel:+91 6265 141 497">+91 6265 141 497</a></p>
+                        <p>Samarth : <a href="tel:+91 88274 76226">+91 88274 76226</a></p>
+                      </div>
+                      <div class="clr"></div>
+                    </div>
+          
+                     <div class="footer-contact-box">
+                      <div class="footer-contact-icon"><i class="fa fa-envelope"></i></div>
+                      <div class="footer-contact-text">
+                        <p>For any query related to cyquest please contact:<br><a href="mailto:info@cyquest.in">info@cyquest.in</a></p>
+                      </div>
+                      <div class="clr"></div>
+                    </div>
+          
+                     <div class="footer-contact-box">
+                      <div class="footer-contact-icon"><i class="fa fa-globe"></i></div>
+                      <div class="footer-contact-text">
+                         <p><a href="http://www.webquanta.ueuo.com">http://www.vitbhopal.ac.in</a></p>
+                      </div>
+                      <div class="clr"></div>
+                    </div>
+          
+                    
+                    </div>
+          
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-section-two">
+                      <div class="footer-heading"><h2>Quick Link</h2></div>
+                      <div class="footer-link">
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                           <li><a href="team.html">Team</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="https://vitbhopal.ac.in/">VIT Bhopal</a></li>     
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-section-two">
+                      <div class="footer-heading"><h2>About CyQuest</h2></div>
+                       <div class="footer-link">
+                        <p>CyQuest is one of the major technical events of ADVITYA, organized by the Cyber Security and Digital Forensics Division of VIT Bhopal. </p>
+                        <ul>
+                            <li><a href="./about.html">Read More...</a></li>   
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="footer-bottom">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <!-- <p> Designed by <a href="http://webquanta.ueuo.com/">WebQuanta® </a></p>  -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+
+    
+    
+
+    <script type="text/javascript">
+        var preloader = document.getElementById("loading");
+
+        function preLoader(){
+            preloader.style.display = 'none';
+        };
+    </script>
+</body>
+</html>

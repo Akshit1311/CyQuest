@@ -1,0 +1,451 @@
+.nav-brand img{
+  width: 8rem;
+  margin-top: 1rem;
+  margin-left: 8rem;
+  background-color: transparent;
+  position: absolute;
+}
+
+#pc-view{
+  margin-top: -150px;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+.social-media{
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem 0;
+	margin-top: 1.5rem;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.social-media i{
+	font-size: 3rem;
+}
+
+
+.fa-facebook-square{
+	color: #3b5999;
+}
+
+.fa-envelope{
+	color: #000000;
+}
+
+.fa-github{
+	color: #000000;
+}
+
+.fa-linkedin{
+	color: #2867B2;
+}
+.fa-twitter-square{
+	color: #0084ff;
+}
+
+.fa-facebook-square:hover,
+.fa-envelope:hover, 
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-twitter-square:hover{
+	color: #45e19f;
+}
+
+
+body {
+     width: 100%;
+     height: 100vh;
+     background:  linear-gradient(135deg, rgba(6, 49, 4, 0.9) 0%, rgba(12, 1, 68, 0.877) 100%);
+     background-size: cover;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 480px;
+      background: rgb(190, 190, 190);
+    }
+    .swiper-slide .imgbx
+    {
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+    }
+    .swiper-slide .imgbx img
+    {
+      width: 100%;
+    }
+    .swiper-slide .details
+    {
+      box-sizing: border-box;
+      padding: 20px;
+    }
+    .swiper-slide .details h3
+    {
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      text-align: center;
+      line-height: 20px;
+    }
+    .swiper-slide .details h3 span
+    {
+      font-size: 16px;
+      color: #f44336;
+    }
+
+    
+    @media screen and (max-width: 1199px){
+      #pc-view{
+        z-index: -9999999999;
+        position: absolute;
+        display: none;
+      }
+    }
+
+    
+    /* Its for Pc */
+
+    @media screen and (min-width:1200px)
+    {
+
+      #mob-view{
+        z-index: -9999999999;
+        position: absolute;
+        display: none;
+      }
+
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      html{
+        font-size: 10px;
+        font-family: "Roboto", sans-serif;
+      }
+      
+      a{
+        text-decoration: none;
+        color: #fff;
+      }
+      
+      section{
+        padding: 10rem 0;
+        background-color: 	#282828;
+      }
+      
+      .heading{
+        text-transform: uppercase;
+        font-size: 3.5rem;
+        letter-spacing: 3px;
+        margin-right: -3px;
+        margin-bottom: 5rem;
+        text-align: center;
+        color: #fff;
+        position: relative;
+      }
+      
+      
+      .heading::after{
+        content: " ";
+        width: 10rem;
+        height: .8rem;
+        background-color: #45e19f;
+        position: absolute;
+        bottom: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2rem;
+      }
+      
+      
+      .card-wrapper{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+      }
+      
+      .card{
+        width: 32rem;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 0;
+        box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
+        z-index: 0;
+      
+      }
+
+      .card h1{
+        text-align: center;
+        
+      }
+
+      
+      
+      
+      .card .card-img{
+        width: 100%;
+        height: 26rem;
+        object-fit: cover;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 78%, 0 100%);
+      }
+      
+      .profile-img{
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: -11rem;
+        z-index: 999;
+        border: 1rem solid #1a001a
+      ;
+      }
+      
+      
+      .card h1{
+        font-size: 2.5rem;
+        color: #fff;
+        margin: 1.5rem 0;
+        margin-top: 1px !important;
+      }
+      
+      .job-title{
+        color: #808080;
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+      
+      .about{
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
+        font-style: italic;
+        text-align: center;
+        color: #fff;
+      }
+      
+      .card .btn{
+        padding: 1rem 2.5rem;
+        background-color: #445ae3;
+        border-radius: 2rem;
+        margin: 1rem 0;
+        text-transform: uppercase;
+        color: #eee;
+        font-size: 1.4rem;
+        transform: all 0.5s;
+      }
+      
+      .card .btn:hover{
+        transform: translateY(0);
+        box-shadow: none;
+      }
+      
+      
+      .social-media{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 0;
+        margin-top: 1.5rem;
+        border-top: 1px solid rgba(0,0,0,.1);
+      }
+      
+      .social-media i{
+        font-size: 3rem;
+      }
+      
+      .fa-envelope{
+          color: rgb(255, 255, 255);
+      }
+      
+      .fa-facebook-square{
+        color: #3b5999;
+      }
+      
+      .fa-twitter-square{
+        color: #55acee;
+      }
+      
+      .fa-instagram{
+        color: #e6683e;
+      }
+      
+      .fa-linkedin{
+        color: #2867B2
+      }
+      
+      .fa-github{
+        color: white;
+      }
+      .fa-facebook-square:hover,
+      .fa-twitter-square:hover, 
+      .fa-instagram:hover,
+      .fa-linkedin:hover,
+      .fa-github:hover,
+      .fa-envelope:hover{
+        color: #45e19f;
+      }
+      
+      .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+        background-color:	#282828;
+      }
+      
+      .nav-brand img{
+        width: 10rem;
+        margin-top: 4rem;
+        margin-left: 15rem;
+        background-color: 	#282828;
+        z-index: 1;
+      }
+      
+      footer{
+        padding: 2.5rem 0;
+        background-color: #000;
+        text-align: center;
+        color: rgba(0,0,0,0.7);
+          color: #eb648c;
+          font-size: 2em;;
+      }  
+      
+      footer a:hover{
+          color: rgb(74, 29, 133);
+      
+      }
+    }
+  
+
+    @media screen and (min-width: 700px){
+      .card-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .card{
+        margin: 2rem;
+      }
+    
+      @keyframes fadeIn{
+        from{
+          opacity: 0;
+        }
+    
+        to{
+          opacity: 1;
+        }
+      }
+    
+        .card:nth-child(1){
+          animation: fadeIn .5s .5s backwards;
+        }
+        .card:nth-child(2){
+          animation: fadeIn .5s 1s backwards;
+        }
+        .card:nth-child(3){
+          animation: fadeIn .5s 1.5s backwards;
+        }
+        .card:nth-child(4){
+          animation: fadeIn .5s 2s backwards;
+        }
+
+      }
+    
+
+/* Navbar CSS */
+
+.logo{
+  max-height:100px;
+  width: 100px;
+  float: left;
+  margin-left: 5px;
+
+
+}
+
+#img3{
+  width: 15px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  .topnav a {
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .topnav .icon {
+	display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+	.topnav a:not(:last-child) {display: none;}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {          
+  .topnav.responsive {
+    
+    position: relative;
+    font-size: 50px;
+  
+  }
+
+	.topnav.responsive .icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
